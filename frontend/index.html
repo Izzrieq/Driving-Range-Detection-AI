@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Driving Range Monitoring</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>Driving Range</h2>
+
+    <!-- FIELD + STARTING POINT -->
+    <div class="field-area">
+      <canvas id="field" width="1200" height="600"></canvas>
+
+      <div class="starting-box">
+        <div class="starting-label">Starting Point</div>
+      </div>
+    </div>
+
+    <!-- RANGE METER (RIGHT → LEFT) -->
+    <div class="range-meter horizontal">
+      <div class="meter-scale horizontal reverse">
+        <div class="meter-tick"><span>200 m</span></div>
+        <div class="meter-tick"><span>180 m</span></div>
+        <div class="meter-tick"><span>160 m</span></div>
+        <div class="meter-tick"><span>140 m</span></div>
+        <div class="meter-tick"><span>120 m</span></div>
+        <div class="meter-tick"><span>100 m</span></div>
+        <div class="meter-tick"><span>80 m</span></div>
+        <div class="meter-tick"><span>60 m</span></div>
+        <div class="meter-tick"><span>40 m</span></div>
+        <div class="meter-tick"><span>20 m</span></div>
+        <div class="meter-tick"><span>0 m</span></div>
+      </div>
+    </div>
+
+    <!-- LEGEND -->
+    <div class="legend">
+      <div><span class="high"></span> High</div>
+      <div><span class="mid"></span> Moderate</div>
+      <div><span class="low"></span> Low</div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

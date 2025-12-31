@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['golfball']
+
+roboflow:
+  workspace: knowledge-wgxfd
+  project: golfball-dfdpz
+  version: 4
+  license: Public Domain
+  url: https://universe.roboflow.com/knowledge-wgxfd/golfball-dfdpz/dataset/4

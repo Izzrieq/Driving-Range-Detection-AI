@@ -1,0 +1,5 @@
+front end run command : (frontend folder)
+python -m http.server 5500
+
+backend run command : (backend folder)
+uvicorn main:app --reload
