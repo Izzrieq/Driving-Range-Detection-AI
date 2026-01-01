@@ -3,3 +3,6 @@ python -m http.server 5500
 
 backend run command : (backend folder)
 uvicorn main:app --reload
+
+
+python detector/detect.py
